@@ -1,0 +1,48 @@
+.video-lightbox,
+.youtube-lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+    &.is-active {
+        display: block;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        video {
+            width: 70%;
+            height: auto;
+        }
+
+        iframe {
+            width: 70%;
+            height: 70vh;
+        }
+    }
+
+    &__close {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: 42px;
+        cursor: pointer;
+
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+}

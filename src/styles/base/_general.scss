@@ -1,0 +1,201 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 26px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+}
+
+.btn {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 12px 30px;    
+    border-radius: 8px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    border-radius: 100px;
+    cursor: pointer;
+
+    &-white {
+        color: #000;
+        background-color: #fff;
+    }
+
+    &-black {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+.h {
+    &-1 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 67px;
+    }
+    &-2 {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 67px;
+
+        & + .subheading {
+            margin-bottom: 60px;
+        }
+    }
+    &-4 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    text-align: center;
+
+    &.h-2 {
+        width: 100%;
+    }
+}
+
+section {
+    margin: 140px 0;
+
+    h2 {
+        text-align: center;
+    }
+
+    & + section {
+        margin-top: 0;
+    }
+}
+
+// class for animation of section revealing
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.7s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+
+    &__content {
+        background: #FFFFFF;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 26px;
+        max-width: 800px;
+        padding: 60px 60px 40px;
+        margin: 20px;
+        position: relative;
+    }
+
+    &__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;    
+        width: 50px;
+        height: 50px;
+        font-size: 42px;
+        background: none;
+    }
+
+    &.is-active {
+        display: flex;
+    }
+}
+
+// disable page scrolling
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+@media (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .h-2 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    
+        & + .subheading {
+            margin-bottom: 40px;
+        }
+    }
+    .btn {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        font-size: 21px;
+        padding: 12px 40px;
+    }
+    .h-2 {
+        font-size: 38px;
+    }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="533.33203"
+   width="327.49109"
+   preserveAspectRatio="xMidYMid"
+   viewBox="-38.39985 -104.22675 90.823841 416.90598"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="Ethereum-Logo.wine.svg"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.68111408"
+     inkscape:cx="164.43648"
+     inkscape:cy="265.74109"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <path
+     fill="#343434"
+     d="m 5.588058,180.00486 2.7949996,2.79 127.9620124,-75.638 -127.9620124,-212.32 -2.7949996,9.500013 z"
+     id="path2" />
+  <path
+     fill="#8c8c8c"
+     d="m 8.3840576,182.79586 v -287.959 l -127.9619976,212.32 z"
+     id="path4" />
+  <path
+     fill="#3c3c3b"
+     d="m 6.808058,307.14286 1.5749996,4.6 128.0390124,-180.319 -128.0380124,75.6 -1.5749996,1.92 z"
+     id="path6" />
+  <path
+     fill="#8c8c8c"
+     d="m -119.57794,131.42186 127.9619976,180.32 v -104.72 z"
+     id="path8" />
+  <path
+     fill="#141414"
+     d="M 8.3830576,48.995873 V 182.79486 l 127.9600124,-75.637 z"
+     id="path10" />
+  <path
+     fill="#393939"
+     d="M 8.3830576,48.995873 -119.57694,107.15686 8.3830576,182.79386 Z"
+     id="path12" />
+</svg>
