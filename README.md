@@ -1,1 +1,1 @@
-Visit website -- [httsp://helpukrainestopwar.com](https://helpukrainestopwar.com)
+Visit website -- [https://helpukrainestopwar.com](https://helpukrainestopwar.com)
