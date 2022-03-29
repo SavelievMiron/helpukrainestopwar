@@ -1,1 +1,1 @@
-Visit website -- [https://helpukrainestopwar.com](https://helpukrainestopwar.com)
+Visit website -- [helpukrainestopwar.com](https://helpukrainestopwar.com)
